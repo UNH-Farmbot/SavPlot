@@ -33,7 +33,8 @@ def get_pin_value(pin):
         os.environ['FARMWARE_URL'] + 'api/v1/bot/state',
         headers=HEADERS)
     try:
-        value = response.json()['pins'][str(pin)]['value']
+        port = serial.Serial('/dev/ttyS0', 115200)
+        value =  port.readline() #response.json()['pins'][str(pin)]['value']
     except KeyError:
         value = None
     if value is None:
