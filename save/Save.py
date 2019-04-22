@@ -15,7 +15,7 @@ HEADERS = {
 
 def get_env(key, type_=int):
     """Return the value of the namespaced Farmware input variable."""
-    return type_(os.getenv('{}_{}'.format(FARMWARE_NAME, key), 5))
+    return type_(os.getenv('{}_{}'.format(FARMWARE_NAME, key), 8))
 
 def no_data_error():
     """Send an error to the log if there's no data."""
