@@ -34,7 +34,7 @@ def get_pin_value(pin):
         headers=HEADERS)
     try:
         port = serial.Serial('/dev/ttyS0', 115200)
-        value =  port.readline() #response.json()['pins'][str(pin)]['value']
+        value =  port.read() #response.json()['pins'][str(pin)]['value']
     except KeyError:
         value = None
     if value is None:
