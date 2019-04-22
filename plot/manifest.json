@@ -8,8 +8,8 @@
  "url": "https://raw.githubusercontent.com/UNH-Farmbot/SavPlot/master/plot/manifest.json",
  "zip": "https://github.com/UNH-Farmbot/SavPlot/archive/master.zip",
  "executable": "python",
- "args": ["pin-data-farmware-master/plot/Plot.py"],
+ "args": ["SavPlot-master/plot/Plot.py"],
  "config": [
-  {"name": "pin", "label": "Sensor pin number", "value": 8 }
+  {"name": "pin", "label": "Port number", "value": 8 }
  ]
 }
