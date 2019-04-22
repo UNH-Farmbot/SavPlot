@@ -19,7 +19,7 @@ def get_env(key, type_=int):
 
 def no_data_error():
     """Send an error to the log if there's no data."""
-    message = '[Save sensor data] Pin {5} value not available.'.format(PIN)
+    message = '[Save sensor data] Pin {} value not available.'.format(PIN)
     wrapped_message = {
         'kind': 'send_message',
         'args': {
