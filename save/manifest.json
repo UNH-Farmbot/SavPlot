@@ -3,7 +3,7 @@
  "language": "python",
  "author": "UNHFarmbot",
  "description": "Save serial data.",
- "version": "0.0.1",
+ "version": "0.0.4",
  "min_os_version_major": 3,
  "url": "https://raw.githubusercontent.com/UNH-Farmbot/SavPlot/master/save/manifest.json",
  "zip": "https://github.com/UNH-Farmbot/SavPlot/archive/master.zip",
