@@ -40,7 +40,9 @@ def no_data_error():
 
 def get_pin_data(pin):
     """Get existing historical pin data."""
-    data = json.loads(os.getenv('pin_data_' + str(pin), '[]'))
+    port = serial.Serial('/dev/ttyS0', 115200)
+        data =  port.read() #response.json()['pins'][str(pin)]['value']
+    #data = json.loads(os.getenv('pin_data_' + str(pin), '[]'))
     if len(data) < 1:
         no_data_error()
         sys.exit(0)
