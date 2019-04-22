@@ -10,6 +10,6 @@
  "executable": "python",
  "args": ["SavPlot-master/save/save.py"],
  "config": [
-  {"name": "pin", "label": "Data port", "value": 5 }
+  {"name": "pin", "label": "Data port", "value": 59 }
  ]
 }
