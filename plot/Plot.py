@@ -17,7 +17,7 @@ RECENT = {'time': None}
 
 def get_env(key, type_=int):
     'Return the value of the namespaced Farmware input variable.'
-    return type_(os.getenv('{}_{}'.format(FARMWARE_NAME, key), 59))
+    return type_(os.getenv('{}_{}'.format(FARMWARE_NAME, key), 8))
 
 def post(wrapped_data):
     """Send the Celery Script command."""
