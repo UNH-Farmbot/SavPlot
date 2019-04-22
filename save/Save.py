@@ -8,7 +8,7 @@ import json
 from time import time
 import requests
 
-FARMWARE_NAME = 'save_sensor_data'
+FARMWARE_NAME = 'save_data'
 HEADERS = {
     'Authorization': 'bearer {}'.format(os.environ['FARMWARE_TOKEN']),
     'content-type': 'application/json'}
