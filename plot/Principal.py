@@ -36,7 +36,7 @@ class Netatmo(Farmware):
                        'client_secret': client_secret}
         else:
             payload = {'grant_type': 'refresh_token',
-                       'refresh_token': '5afc25d7923dfe791f8b5fcc|d6e069df8e512da02731449e80ffdc0e',
+                       'refresh_token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1bmtub3duIiwic3ViIjoyMDUyLCJpYXQiOjE1NTYwMjU2NjgsImp0aSI6ImE3NTA5MDQ5LTJkNDktNGM4OS1hOGUzLWVlZmQ5NThhYTA5YyIsImlzcyI6Ii8vbXkuZmFybWJvdC5pbzo0NDMiLCJleHAiOjE1NTk0ODEzMzcsIm1xdHQiOiJjbGV2ZXItb2N0b3B1cy5ybXEuY2xvdWRhbXFwLmNvbSIsImJvdCI6ImRldmljZV8yMDQ5Iiwidmhvc3QiOiJ4aWNvbmZ1bSIsIm1xdHRfd3MiOiJ3c3M6Ly9jbGV2ZXItb2N0b3B1cy5ybXEuY2xvdWRhbXFwLmNvbTo0NDMvd3MvbXF0dCIsIm9zX3VwZGF0ZV9zZXJ2ZXIiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL2Zhcm1ib3QvZmFybWJvdF9vcy9yZWxlYXNlcy9sYXRlc3QiLCJiZXRhX29zX3VwZGF0ZV9zZXJ2ZXIiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL0Zhcm1Cb3QvZmFybWJvdF9vcy9yZWxlYXNlcy8xNDU4MTg3MSJ9.IrTzqJS57q17_rOGJBlrvjf6s9ULOWhsnOKkxGK1Uy5NV96r-DW1tyko1HJwKInIm_bLsFSAd7q4ujprIdlyvogS-jBGa9lgrZLAp669z0al5AYIZF13kZg3yFHth_-1xECxSyLQQDyH19C8_wC97Af0OZYzKKoDjLZGauaX7ztDDUbaiT4it29OhPO8smHJ17tq-n7akjlNJ_GgRmucoajP6Rv7KBhEPM1PpOAH5BCmF1SRa9NEskqvy_AU8WCrJ3pf3GqPiwv95Mneq-pzx52foNO0Urm5sAqN6glHgvkEFI0pWYyBN79MAAJdn2B-zrqf6oIkF0R18eX_hFgrzQ',
                        'client_id': client_id,
                        'client_secret': client_secret}
 
